@@ -1,25 +1,3 @@
 <h1>Create a New Article</h1>
 
-<% if @article.errors.any? %>
-    <ul>
-        <% @article.errors.full_messages.each do |msg| %>
-            <li><%= msg %></li>
-        <% end %>
-    </ul>
-<% end %>
-
-<%= form_for @article do |detail| %>
-    <p>
-        <%= detail.label :title %><br/>
-        <%= detail.text_field :title %>
-    </p>
-
-    <p>
-        <%= detail.label :description %><br/>
-        <%= detail.text_area :description %>
-    </p>
-
-    <p>
-        <%= detail.submit %>
-    </p>
-<% end %>
+<%= render 'form' %>
