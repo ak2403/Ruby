@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Simple Ruby on Rails web application for article Blog.
 
-Things you may want to cover:
+Technology Used:
 
-* Ruby version
+* Ruby on Rails
 
-* System dependencies
+* Bootstrap
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* SQL
